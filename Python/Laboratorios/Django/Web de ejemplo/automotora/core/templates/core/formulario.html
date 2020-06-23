@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+
+{% block contenido %}
+
+<h2>Registar Automovil</h2>
+       <form action="" id="formularioAutomovil">
+           <label for="">Patente</label>
+           <input type="text" name="txtPatente" id="txtPatente">
+           <br>
+           <label for="">Marca</label>
+           <select name="cboMarca" id="cboMarca">
+               <option value="">Seleccionar</option>
+               <option value="1">Toyota</option>
+               <option value="2">Suzuki</option>
+               <option value="3">Chevrolet</option>
+               <option value="4">Nissan</option>
+               <option value="5">Mitsubishi</option>
+           </select>
+           <br>
+           <label for="">Modelo</label>
+           <input type="text" name="txtModelo" id="txtModelo">
+           <br>
+           <label for="">Año</label>
+           <input type="number" name="txtAnio" id="txtAnio">
+           <br>
+           <input type="submit" name="btnAnio" id="btnAnio" value="Guardar">
+       </form>
+
+{% endblock contenido %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculos</title>
+    <!--cargamos la libreria JQUERY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/calculos.js"></script>
+    <!--<script src="js/arreglos.js"></script>-->
+
+</head>
+<body>
+    <form action="">
+
+        
+        <label for="">Numero 1</label>
+        <input type="number" name="txtNumero1" id="txtNumero1">
+        <br>
+        <label for="">Numero 2</label>
+        <input type="number" name="txtNumero2" id="txtNumero2">
+        <br>
+        <label for="">Tipo de calculo</label>
+        <select name="cboTipo" id="cboTipo">
+            <option value="1">Sumar</option>
+            <option value="2">Restar</option>
+            <option value="3">Multiplicar</option>
+            <option value="4">Dividir</option>
+        </select>
+        <br>
+        <label for="">Resultado</label>
+        <input type="number" name="txtResultado" id="txtResultado" disabled>
+        <br>
+        <input type="button" name="btnCalcular" id="btnCalcular" value="Calcular">
+
+    </form>
+</body>
+</html>
